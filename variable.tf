@@ -12,3 +12,15 @@ variable "dir_to_public_key" {
 variable "dir_to_private_key" {
   default = "tkey"
 }
+
+variable "subnet_id"{ 
+    default = "subnet-d7eb848d" 
+    }
+
+variable "vpc_security_group_ids" {
+    default = "sg-f0879abe"
+  }
+
+variable "vpc_id_vpc_id" { 
+    default = "vpc-14cb3b6d" 
+    }
